@@ -9,7 +9,8 @@ import androidx.compose.ui.graphics.Color
 
 private val CuanLightColors = lightColorScheme(
     primary = Color(0xFF00A878),
-    background = Color(0xFFF5F7F6),
+    background = Color(0xFFFFF8F5),
+    secondary = Color(0xFFEEE7E3),
     surface = Color(0xFFFFFFFF)
 )
 
