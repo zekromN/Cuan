@@ -3,9 +3,9 @@ package com.cuan.app
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
+import com.cuan.app.ui.screens.SplashScreen
+import com.cuan.app.ui.theme.CuanTheme
+
 
 class MainActivity : ComponentActivity() {
 
@@ -13,10 +13,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            MaterialTheme {
-                Surface {
-                    Text("Cuan App")
-                }
+            CuanTheme {
+                SplashScreen()
             }
         }
     }
